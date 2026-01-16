@@ -306,6 +306,7 @@ li{
 
 .card3 {
   background: #fde7dc;
+    transition: all 0.6s ease-in-out;
   border-radius: 16px;
 }
 
@@ -323,11 +324,21 @@ li{
   font-weight: 500;
   color: #000;
   cursor: pointer;
+    transition: all 0.6s ease-in-out;
 }
-
+.bt3:hover, .bt3:hover i {
+    color: whitesmoke;
+    transition: all 0.6s ease-in-out;
+}
+.card3:hover{
+    transform: translateY(-10px);
+    transition: all 0.6s ease-in-out;
+    background: #ff6a2a;
+}
 .bt3 i {
   font-size: 18px;
   color: #ff6a2a;
+    transition: all 0.6s ease-in-out;
 }
 
 /* Active holat */
@@ -361,10 +372,11 @@ li{
     width: 416px;
     height: 470px;
     background: rgba(255, 255, 255, 1);
-    /* border: 2px solid red; */
+    border: 2px solid rgba(139, 137, 137, 0.521);
     overflow: hidden;
     transition: all 0.6s ease-in-out;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
 }
 .div12{
     display: flex;
@@ -422,13 +434,19 @@ li{
     display: inline;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 113, 50, 1);
+    background: #eeeeee;
+    color:  rgba(255, 113, 50, 1);
     border: none;
     width: 100%;
     height: 43px;
     transition: all 0.6s ease-in-out;
     margin-top: 60px;
     opacity: 0;
+}
+.bt4:hover{
+    transition: all 0.6s ease-in-out;
+    color: #eeeeee;
+    background:  rgba(255, 113, 50, 1);
 }
 .card4:hover .bt4{
     margin-top: 25px;
@@ -442,3 +460,148 @@ li{
 .s{
     margin-top: 55px;
 }
+.hp{
+    transition: all 0.6s ease-in-out;
+}
+.card4:hover .hp{
+    content: url(photo/Ellipse\ 3\ \(1\).png);
+    transition: all 0.6s ease-in-out;
+}
+.card4:hover{
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-5px) scale(1.05);
+    border: 2px solid #ff6a2a;
+    border-radius: 20px;
+}
+
+
+
+
+.blockc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: -230px;
+}
+
+.cardd{
+    position: relative;
+    transition: all 0.6s ease-in-out;
+}
+
+.cardd1{
+    transform: rotate(90deg);
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+.cardd2{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: -240px;
+    top: 600px;
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.rd1{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    transition: all 0.6s ease-in-out;
+}
+.cardd1:hover{
+    transition: all 0.6s ease-in-out;
+    transform: rotate(-90deg);
+}
+.cardd:hover .cardd2,
+.cardd:focus .cardd2{
+    top: 80px;
+    opacity: 1;
+    transition: all 0.6s ease-in-out;
+}
+
+
+
+
+.block5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    overflow: hidden;
+    z-index: 999999;
+}
+
+
+.tx6{
+    color: #ff7a18;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tx7{
+    font-size: 44px;
+    font-weight: 800;
+    margin: 15px 0 40px;
+}
+.xt3{
+    margin-top: -35px;
+}
+
+
+.div18{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.6s ease-in-out;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 5px 40px 0px rgba(189, 171, 13, 0.329);
+    border-radius: 20px;
+}
+.tx8, .tx9{
+    margin-left: 20px;
+}
+.tx9{
+    margin-top: -10px;
+    color: #777;
+}
+.tx8{
+    font-weight: 700;
+    font-size: 22px;
+}
+.div19 i{
+    background: #ff4d6d;
+    border-radius: 50%;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+.div18:hover{
+    transition: all 0.6s ease-in-out;
+    background: whitesmoke;
+    border-radius: 20px;
+    transform: translateX(10px) scale(1.01);
+}
+.dv i{
+    background: #FF7132;
+}
+.vd1 i{
+    background: #2ecc71;
+}
+
+
+
