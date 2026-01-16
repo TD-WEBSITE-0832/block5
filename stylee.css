@@ -1,3 +1,254 @@
 body{
-    background: linear-gradient(to left, black, white);
+    background: rgb(255, 255, 255);
+    margin: 0;
+     /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    /* overflow: hidden; */
+}
+.card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 200px;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    left: -40px;
+    top: 80px;
+    transition: all 0.6s ease-in-out;
+    opacity: 0;
+}
+.div1{
+    position: relative;
+}
+.txt0{
+    text-decoration: none;
+    background: white;
+    color: black;
+    width: 100px;
+    transition: all 0.6s ease-in-out;
+}
+.txt0:hover{
+    transform: translateY(-4px);
+    transition: all 0.6s ease-in-out;
+    color: #FF7132;
+    border-radius: 5px;
+}
+.div1:hover .div2{
+    opacity: 1;
+    top: 22px;
+    transition: all 0.6s ease-in-out;
+}
+.tx{
+   font-weight: 700;
+   font-size: 32px;
+}
+.sp{
+    color: #FF7132;
+    transition: all 0.6s ease-in-out;
+}
+.sp1{
+    margin-left: 30px;
+}
+.txt{
+    text-decoration: none;
+    color: black;
+    transition: all 0.6s ease-in-out;
+    margin-left: 30px;
+}
+.bt{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 24px;
+    background: rgb(182, 182, 182);
+    color: #FF7132;
+    margin-left: 20px;
+    transition: all 0.6s ease-in-out;
+}
+.bt:hover{
+    background: #FF7132;
+    color: wheat;
+    transition: all 0.6s ease-in-out;
+}
+
+.txt:hover{
+    border-bottom: 1px solid #FF7132;
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-4px);
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ph{
+    margin-left: 20px;
+    transition: all 0.6s ease-in-out;
+}
+.ph:hover{
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.txt1{
+    color: #555555;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+li{
+    color: #555555;
+    font-weight: 500;
+}
+.xt1{
+    color: #7B5896;
+    font-size: 64px;
+}
+.xt, .xt1{
+    margin-top: -53px;
+    font-size: 64px;
+}
+.div5{
+    margin-top: 70px;
+}
+.tx1{
+    font-size: 20px;
+    color: #7B5896;
+}
+.sp2{
+    color: black;
+}
+.xts{
+    margin-top: 40px;
+}
+.tx2{
+    color: #555555;
+}
+.xt2{
+    margin-top: -10px;
+}
+.bt1{
+    color: #7B5896;
+    transition: all 0.6s ease-in-out;
+    font-weight: 700;
+    font-size: 16px;
+    width: 155px;
+    height: 52px;
+    border: none;
+    margin-left: 20px;
+}
+.bt2{
+    color: #7B5896;
+    transition: all 0.6s ease-in-out;
+     font-weight: 700;
+    font-size: 16px;
+    width: 155px;
+    height: 52px;
+    border: none;
+    margin-left: 20px;
+}
+.bt1:hover, .bt2:hover{
+    background: #7B5896;
+    transition: all 0.6s ease-in-out;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.div8{
+    margin-top: 30px;
+}
+.ph1{
+    transition: all 0.6s ease-in-out;
+}
+.ph1:hover{
+    transition: all 0.6s ease-in-out;
+    transform: translateX(-4px) scale(1.15) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 700PX;
+    /* border: 2px solid red; */
+    height: 100px;
+    margin-top: 40px;
+    transition: all 0.6s ease-in-out;   
+}
+.card2{
+    display: flex;
+    /* align-items: ; */
+    margin-top: 50px;
+}
+.block2:hover{
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.05);
+    transition: all 0.6s ease-in-out;
 }
