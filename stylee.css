@@ -21,6 +21,9 @@ body{
    justify-content: center;
    gap: 200px;
 }
+.sec{
+    display: none;
+}
 .div{
     display: flex;
     align-items: center;
@@ -80,7 +83,7 @@ body{
     height: 40px;
     border: none;
     border-radius: 24px;
-    background: rgb(182, 182, 182);
+    background: rgb(224, 224, 224);
     color: #FF7132;
     margin-left: 20px;
     transition: all 0.6s ease-in-out;
@@ -89,6 +92,7 @@ body{
     background: #FF7132;
     color: wheat;
     transition: all 0.6s ease-in-out;
+    border-radius: 10px;
 }
 
 .txt:hover{
@@ -100,6 +104,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 150px;
 }
 .ph{
     margin-left: 20px;
@@ -523,6 +528,8 @@ li{
 .cardd1:hover{
     transition: all 0.6s ease-in-out;
     transform: rotate(-90deg);
+    background: #ff6a2a;
+    color: whitesmoke;
 }
 .cardd:hover .cardd2,
 .cardd:focus .cardd2{
@@ -605,3 +612,504 @@ li{
 
 
 
+
+
+
+
+
+
+.tx10{
+    text-align: center;
+margin-top: 80px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+
+.block6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.sp3 {
+  font-size: 14px;
+  color: #000;
+}
+
+.switch {
+  position: relative;
+  width: 42px;
+  height: 22px;
+}
+.ps{
+    margin-left: 50px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #2ecc71; 
+  border-radius: 20px;
+  transition: 0.3s;
+  width: 86px;
+  height: 32px;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 3px;
+  top: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.switch input:checked + .slider {
+  background-color: #000;
+}
+.switch input:checked + .slider::before {
+  transform: translateX(55px);
+  background: #2ecc71;
+}
+
+
+
+
+
+
+
+
+
+.rd1:hover{
+    transform: translateY(-7px) scale(1.02);
+    box-shadow: 0px 10px 40px -10px #777;
+}
+
+
+
+.block7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card7{
+    padding: 40px;
+    height: 498px;
+    width: 416px;
+    background: rgba(255, 113, 50, 1);
+        border-radius: 16px;
+    transition: all 0.6s ease-in-out;
+    color: whitesmoke;
+}
+.card7:hover{
+    border-radius: 16px;
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-13px);
+}
+.ra{
+    background: rgba(239, 81, 108, 1);
+}
+.ra1{
+    background: rgba(48, 179, 56, 1);
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+.price{
+    font-weight: 700;
+    font-size: 42px;
+}
+.desc{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.features{
+    margin-top: 70px;
+}
+
+.ps1{
+    margin-right: 20px;
+    background: #e24400d3;
+    color: whitesmoke;
+    padding: 5px;
+    transition: all 0.6s ease-in-out;
+    border-radius: 50%;
+}
+.card7:hover .ps1{
+    transition: all 0.6s ease-in-out;
+    color: #ff6a2a;
+    background: whitesmoke;
+}
+
+
+
+
+.btn{
+    margin-top: 70px;
+    padding: 10px;
+    width: 168px;
+    height: 48px;
+    border: none;
+    border-radius: 16px;
+    color: black;
+    font-size: 16px;
+    transition: all 0.6s ease-in-out;
+    font-weight: 700;
+}
+.btn:hover{
+    background: black;
+    color: whitesmoke;
+    transform: translateY(-10px) rotate(2deg);
+    transition: all 0.6s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.block8{
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 60px 20px;
+  background: #7b5c96;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.block8 h2{
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.block8 p{
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 40px;
+}
+
+.input-box{
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.input-box input{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 16px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.input-box button{
+  border: none;
+  background: #7b5c96;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  transition: all 0.6s ease-in-out;
+}
+
+.input-box button:hover{
+  transition: all 0.6s ease-in-out;
+  background: #773ea8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.block9{
+  background: linear-gradient(90deg,#fff3e0,#fff);
+  padding: 30px 60px 15px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 20px;
+}
+
+.logo h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.logo span{
+  color: #ff7a00;
+}
+
+.links{
+  display: flex;
+  gap: 35px;
+}
+
+.links a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: all 0.6s ease-in-out;
+}
+
+
+
+
+
+
+.sec{
+    display: none;
+}
+.links a:hover{
+  text-decoration: underline #ff7a00;
+  transition: all 0.6s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.social{
+  display: flex;
+  gap: 12px;
+}
+
+.social i{
+  width: 36px;
+  height: 36px;
+  background: #7b5c96;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.6s ease-in-out;
+}
+
+.social i:hover{
+  /* opacity: 0.85; */
+  transform: translateY(-10px) scale(1.02) rotate(360deg);
+  transition: all 0.6s ease-in-out;
+}
+
+.footer-bottom{
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+  margin-top: 15px;
+}
+
+/* Desktop menu */
+.id {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Burger icon yashirin desktopda */
+.sec {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px){
+  .id {
+    display: none; /* menu boshlanishda yashirin */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* header balandligi */
+    left: 410px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+  .sec {
+    display: block;
+    margin-right: -150px;
+  }
+  .id.active {
+    display: flex; /* burger bosilganda ko‘rinadi */
+  }
+}
+
+
+/* --- MEDIA QUERIES (RESPONSIVE DESIGN) --- */
+
+/* 1. Katta monitorlar va Planshetlar uchun (1200px dan kichik) */
+@media (max-width: 1200px) {
+    .card, .block1, .block4, .block5, .block7 {
+        flex-wrap: wrap; /* Elementlar sig'masa pastga tushadi */
+        gap: 20px;
+    }
+    
+    .card { gap: 50px; } /* Navbar elementlari orasidagi masofa */
+    
+    .card1 img {
+        max-width: 90%; /* Rasmlar ekranga moslashadi */
+        height: auto;
+    }
+}
+
+/* 2. Kichik planshetlar uchun (992px dan kichik) */
+@media (max-width: 992px) {
+    .div.id {
+        display: none; /* Navbar menyusini yashiramiz (Burger uchun) */
+    }
+    
+    .fa-bars {
+        display: block !important; /* Burger iconni ko'rsatamiz */
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .xt, .xt1 {
+        font-size: 40px; /* Sarlavha hajmini kichraytiramiz */
+    }
+
+    .block2 {
+        flex-direction: column; /* Statistika (20k+, 10k+) ustma-ust tushadi */
+        height: auto;
+        padding: 20px;
+    }
+    .id {
+    display: none; /* menu boshlanishda yashirin */
+    flex-direction: column;
+    position: absolute;
+    top: 100px; /* header balandligi */
+    left: 310px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+  .sec {
+    display: block;
+    margin-right: -150px;
+  }
+  .id.active {
+    display: flex; /* burger bosilganda ko‘rinadi */
+  }
+}
+
+/* 3. Telefonlar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    /* Asosiy bloklarni ustma-ust qilish */
+    .block1, .block5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div6, .div7, .div8 {
+        justify-content: center;
+        display: flex;
+    }
+
+    .block3 {
+        flex-wrap: wrap; /* Kategoriyalar (Design) tugmalari */
+    }
+
+    .card4 {
+        width: 90%; /* Kurs kartochkalari deyarli butun ekranni egallaydi */
+    }
+
+    .tx7 {
+        font-size: 32px; /* "Life easy" sarlavhasi */
+    }
+
+    .block8 {
+        margin: 20px;
+        padding: 30px 15px;
+    }
+
+    .input-box {
+        flex-direction: column;
+        background: transparent;
+    }
+
+    .input-box input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .id {
+    display: none; /* menu boshlanishda yashirin */
+    flex-direction: column;
+    position: absolute;
+    top: 90px; /* header balandligi */
+    left: 110px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+  .sec {
+    display: block;
+    margin-right: -150px;
+  }
+  .id.active {
+    display: flex; /* burger bosilganda ko‘rinadi */
+  }
+}
+
+/* 4. Juda kichik telefonlar (480px) */
+@media (max-width: 480px) {
+    .xt, .xt1 {
+        font-size: 30px;
+    }
+    
+    .bt1, .bt2 {
+        width: 130px;
+        font-size: 14px;
+    }
+}
